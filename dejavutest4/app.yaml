@@ -15,5 +15,8 @@ handlers:
 - url: /images
   static_dir: images
 
+- url: .*/video
+  script: video.php
+
 - url: .*
   script: psych100btest.php

@@ -4,8 +4,8 @@
 			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 			<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
 			<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
-			<script type="text/javascript" language="javascript" src="/static/psych100btest.js"></script>
-			<link type="text/css" rel="stylesheet" href="/static/psych100btest.css">
+			<script type="text/javascript" language="javascript" src="/static/video.js"></script>
+			<link type="text/css" rel="stylesheet" href="/static/video.css">
 			<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 			<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
@@ -15,50 +15,8 @@
 		</head>
 		<body>
 
-		
-
 			<div id="fader"></div>
 
-			<div id="signUpBox">
-				<div id="signUpContent">
-					<br>
-					Sign Up
-					<div class="signUpInfo">
-						First Name
-						<input type="text" class="signUpTextField">
-					</div>
-					<div class="signUpInfo">
-						Last Name
-						<input type="text" class="signUpTextField">
-					</div>
-					<div class="signUpInfo">
-						Email
-						<input type="text" class="signUpTextField">
-					</div>
-					<div class="signUpInfo">
-						Password
-						<input type="password" class="signUpTextField">
-					</div>
-					<div class="signUpInfo">
-						Verify Password
-						<input type="password" class="signUpTextField">
-					</div>
-
-					<div id="linkedinBox">
-						<div id="linkedinButton">
-						</div>
-					</div>
-
-					<div id="signUpButtonBox">
-						<div id="signUpButton">
-							Sign Up
-						</div>
-					</div>
-
-					<i id="signUpCloseButton" class="fa fa-times fa-2x" aria-hidden="true"></i>
-
-				</div>
-			</div>
 
 			<div id="loginBox">
 				<div id="loginContent">
@@ -89,7 +47,8 @@
 
 				</div>
 			</div>
-			
+
+
 			<div id="navibar">
 				<div id="PASSION">
 					<span style="color: red">PASSION</span>: (n.) the energizing love you have for your work, in which you are thoroughly absorbed and find deeply meaningful
@@ -114,34 +73,77 @@
 				</div>
 			</div>
 
-			<div id="imageContainer">
-				<img id="mainImage" src="/images/sample.jpg"/>
+			<div id="careerTitle">
+				<br><br><br>
+				Middle School Teacher
+			</div>
 
-				<div id="welcomeBox">
-					<div id="welcomeContent">
+			<div id="videoBox">
+				<div id="video">
+				</div>
+			</div>
+
+			<div id="iconContainer">
+
+				<div id="salaryCategory" class="category">
+					Salary
 					<br>
-					Welcome to Our Website!
-					<br>
-					This website is designed to help you
-					<br>
-					find a career that you can be
-					<br>
-					passionate about.
-					</div>
+					<i id="salary" class="fa fa-usd fa-3x icon" aria-hidden="true"></i>
 				</div>
 
-				<div id="freeAccount">
-					<div id="freeAccountContent">
-						Create Your Free Account
-					</div>
+				<div id="educationCategory" class="category">
+					Education
+					<br>
+					<i id="education" class="fa fa-graduation-cap fa-3x icon" aria-hidden="true"></i>
 				</div>
 
-				<div id="browseCareers">
-					<div id="browseCareersContent">
-						Browse Careers Now
-					</div>
+				<div id="skillsCategory" class="category">
+					Skills
+					<br>
+					<i id="skills" class="fa fa-clipboard fa-3x icon" aria-hidden="true"></i>
 				</div>
 
+				<div id="careerOutlookCategory" class="category">
+					Career Outlook
+					<br>
+					<i id="careerOutlook" class="fa fa-sun-o fa-3x icon" aria-hidden="true"></i>
+				</div>
+
+				<div id="worldOfWorkCategory" class="category">
+					World of Work
+					<br>
+					<i id="worldOfWork" class="fa fa-globe fa-3x icon" aria-hidden="true"></i>
+				</div>
+
+			</div>
+
+			<div id="salaryDialog" class="dialog">
+				<br>
+				Average U.S. Salary (yearly)
+				<br>
+				$53,900
+			</div>
+
+			<div id="educationDialog" class="dialog">
+				<br>
+				Bachelor's Degree
+				<br>
+				4 years
+			</div>
+
+			<div id="skillsDialog" class="dialog">
+				<br>
+				Show Piechart
+			</div>
+
+			<div id="careerOutlookDialog" class="dialog">
+				<br>
+				Annual Employment Increase
+			</div>
+
+			<div id="worldOfWorkDialog" class="dialog">
+				<br>
+				World of Work Info
 			</div>
 
 

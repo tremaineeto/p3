@@ -44,114 +44,6 @@ a:hover {
 	z-index: 2;
 }
 
-
-#signUpBox {
-	top: 6em;
-	left: 50%;
-	position: fixed;
-	color: black;
-
-	height: 20em;
-	width: 20em;
-	z-index: 3;
-}
-
-#signUpContent {
-	color: black;
-	background-color: white;
-	line-height: 2em;
-	height: 20em;
-	width: 20em;
-	margin-left: -10em;
-	position: fixed;
-	z-index: 3;
-}
-
-.signUpInfo {
-	width: 100%;
-	text-align: left;
-	margin-left: 1em;
-	margin-right: 1em;
-}
-
-.signUpTextField {
-	width: 50%;
-	margin-top: 1em;
-	right: 2em;
-	position: absolute;
-}
-
-#linkedinBox {
-	height: 41px;
-	width: 215px;
-	position: absolute;
-	left: 50%;
-	margin-top: 0.5em;
-}
-
-#linkedinButton {
-	background-image: url("/images/linkedindefault.png");
-	height: 41px;
-	width: 215px;
-	position: absolute;
-	margin-left: -107.5px;
-}
-
-#signUpButtonBox {
-	height: 2em;
-	width: 5em;
-	position: absolute;
-	left: 50%;
-	bottom: 1em;
-}
-
-#signUpButton {
-	height: 2em;
-	width: 5em;
-	position: absolute;
-	margin-left: -2.5em;
-
-	border-radius: 3px;
-
-	background-color: hsl(210, 60%, 50%);
-	color: white;
-}
-
-#signUpButton:hover {
-	background-color: hsl(210, 60%, 55%);
-	cursor: pointer;
-}
-
-#signUpButton:active {
-	background-color: hsl(210, 60%, 60%);
-}
-
-#signUpCloseButton {
-	top: 0.1em;
-	right: 0.1em;
-	position: absolute;
-	color: hsl(210, 60%, 50%);
-}
-
-#signUpCloseButton:hover {
-	color: hsl(210, 60%, 55%);
-	cursor: pointer;
-}
-
-#signUpCloseButton:active {
-	color: hsl(210, 60%, 60%);
-}
-
-#linkedinButton:hover {
-	background-image: url("/images/linkedinhover.png");
-	cursor: pointer;
-}
-
-#linkedinButton:active {
-	background-image: url("/images/linkedinactive.png");
-
-}
-
 #loginBox {
 	top: 2em;
 	right: 0.5em;
@@ -383,3 +275,149 @@ a:hover {
 	cursor: pointer;
 	color: hsl(210, 60%, 50%);
 }
+
+
+
+#careerTitle {
+	text-align: center;
+	color: hsl(210, 60%, 50%);
+	font-size: 25px;
+}
+
+
+#videoBox {
+	top: 8em;
+	left: 50%;
+	position: absolute;
+
+	height: 22em;
+	width: 35em;
+}
+
+#videoBox {
+	color: white;
+	background-color: black;
+	height: 22em;
+	width: 35em;
+	margin-left: -17.5em;
+	position: absolute;
+}
+
+#iconContainer {
+	color: black;
+	position: absolute;
+	top: 0em;
+	right: 0em;
+	height: 100%;
+	width: 10em;
+}
+
+.category {
+	margin-top: 2em;
+}
+
+.icon:hover {
+	cursor: pointer;
+}
+
+#salaryCategory {
+	margin-top: 3em;
+	color: hsl(145, 60%, 50%);
+}
+
+#salaryCategory .icon:hover {
+	color: hsl(145, 60%, 60%);
+}
+
+#salaryCategory .icon:active {
+	color: hsl(145, 60%, 70%);
+}
+
+#educationCategory {
+	color: hsl(210, 60%, 50%);
+}
+
+#educationCategory .icon:hover {
+	color: hsl(210, 60%, 60%);
+}
+
+#educationCategory .icon:active {
+	color: hsl(210, 60%, 70%);
+}
+
+#skillsCategory {
+	color: hsl(20, 60%, 50%);
+}
+
+#skillsCategory .icon:hover {
+	color: hsl(20, 60%, 60%);
+}
+
+#skillsCategory .icon:active {
+	color: hsl(20, 60%, 70%);
+}
+
+#careerOutlookCategory {
+	color: hsl(45, 60%, 50%);
+}
+
+#careerOutlookCategory .icon:hover {
+	color: hsl(45, 60%, 60%);
+}
+
+#careerOutlookCategory .icon:active {
+	color: hsl(45, 60%, 70%);
+}
+
+#worldOfWorkCategory {
+	color: hsl(260, 60%, 50%);
+}
+
+#worldOfWorkCategory .icon:hover {
+	color: hsl(260, 60%, 60%);
+}
+
+#worldOfWorkCategory .icon:active {
+	color: hsl(260, 60%, 70%);
+}
+
+.dialog {
+	z-index: 1;
+	position: absolute;
+	right: 9em;
+	background-color: hsl(210, 60%, 70%);
+	opacity: 0.98;
+	filter: alpha(opacity=98);
+}
+
+#salaryDialog {
+	top: 3em;
+	height: 5em;
+	width: 15em;
+}
+
+#educationDialog {
+	top: 9.25em;
+	height: 5em;
+	width: 15em;
+}
+
+#skillsDialog {
+	top: 15.5em;
+	height: 5em;
+	width: 15em;
+}
+
+#careerOutlookDialog {
+	top: 21.75em;
+	height: 5em;
+	width: 15em;
+}
+
+#worldOfWorkDialog {
+	top: 28em;
+	height: 5em;
+	width: 15em;
+}
+
+
